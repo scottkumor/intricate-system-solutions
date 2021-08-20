@@ -10,20 +10,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src={logoText} className="App-logo-text" alt="logo-text" />  
+        <img src={logoText} className="App-logo-text" alt="logo-text" />
       </header>
 
-      <section className="section-intro"> 
-        <img src={cam} className="cam-img" alt="cam-img" />
-        <div className="section-intro-partners">
-           <a className="img" href="https://www.openpath.com/" alt="openpath" rel="noopener noreferrer" target="_blank">
-             <img src={op} className="op-img" alt="op-img" />
-           </a>
-           <a className="img" href="https://www.ltsecurityinc.com/" alt="LTS" rel="noopener noreferrer" target="_blank">
-            <img src={lts} className="lts-img" alt="lts-img" />
-           </a>
-        </div>
-      </section>
+      <img src={cam} className="cam-img" alt="cam-img" />
+
+      <div className="section-partners">
+        <a className="img" href="https://www.openpath.com/" alt="openpath" rel="noopener noreferrer" target="_blank">
+          <img src={op} className="op-img" alt="op-img" />
+        </a>
+        <a className="img" href="https://www.ltsecurityinc.com/" alt="LTS" rel="noopener noreferrer" target="_blank">
+          <img src={lts} className="lts-img" alt="lts-img" />
+        </a>
+      </div>
 
       <section className="section-contact">
         <p className="section-contact-title">
